@@ -1,0 +1,162 @@
+﻿<?xml version="1.0"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <panels>
+    <ConsolePanel>
+      <id>0</id>
+      <title>ゲームに使う</title>
+      <pos>TopRight</pos>
+      <buttons>
+        <ConsoleButton>
+          <id>0</id>
+          <title>背景</title>
+          <iconPath>.\img\image.png</iconPath>
+          <ope>Move</ope>
+          <dirName>bg</dirName>
+          <key>B</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>1</id>
+          <title>キャラ</title>
+          <iconPath>.\img\user_alien.png</iconPath>
+          <ope>Move</ope>
+          <dirName>chara</dirName>
+          <key>C</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>2</id>
+          <title>ポーズ</title>
+          <iconPath>.\img\walk.png</iconPath>
+          <ope>Move</ope>
+          <dirName>pose</dirName>
+          <key>P</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>3</id>
+          <title>服装</title>
+          <iconPath>.\img\shirt_polo.png</iconPath>
+          <ope>Move</ope>
+          <dirName>costume</dirName>
+          <key>O</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>4</id>
+          <title>テクスチャ</title>
+          <iconPath>.\img\large_tiles.png</iconPath>
+          <ope>Move</ope>
+          <dirName>texture</dirName>
+          <key>T</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>5</id>
+          <title>その他</title>
+          <iconPath>.\img\bullet_star.png</iconPath>
+          <ope>Move</ope>
+          <dirName>etc</dirName>
+          <key>E</key>
+        </ConsoleButton>
+      </buttons>
+      <fgColor>-1</fgColor>
+      <bgColor>-16776961</bgColor>
+    </ConsolePanel>
+    <ConsolePanel>
+      <id>1</id>
+      <title>ゲームに使わない</title>
+      <pos>TopRight</pos>
+      <buttons>
+        <ConsoleButton>
+          <id>0</id>
+          <title>お手本に使う</title>
+          <iconPath>.\img\jar_open.png</iconPath>
+          <ope>Move</ope>
+          <dirName>for ref</dirName>
+          <key>R</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>1</id>
+          <title>使わない</title>
+          <iconPath>.\img\tick.png</iconPath>
+          <ope>Move</ope>
+          <dirName>not use</dirName>
+          <key>N</key>
+        </ConsoleButton>
+      </buttons>
+      <fgColor>-4144960</fgColor>
+      <bgColor>-16777088</bgColor>
+    </ConsolePanel>
+    <ConsolePanel>
+      <id>2</id>
+      <title>             左上サンプル</title>
+      <pos>TopLeft</pos>
+      <buttons>
+        <ConsoleButton>
+          <id>0</id>
+          <title>サンプルボタン</title>
+          <iconPath />
+          <ope>Move</ope>
+          <dirName />
+          <key>None</key>
+        </ConsoleButton>
+      </buttons>
+      <fgColor>-16760832</fgColor>
+      <bgColor>-16744320</bgColor>
+    </ConsolePanel>
+    <ConsolePanel>
+      <id>3</id>
+      <title>左下サンプル</title>
+      <pos>BottomLeft</pos>
+      <buttons>
+        <ConsoleButton>
+          <id>0</id>
+          <title>サンプルボタン</title>
+          <iconPath />
+          <ope>Move</ope>
+          <dirName />
+          <key>None</key>
+        </ConsoleButton>
+      </buttons>
+      <fgColor>-65536</fgColor>
+      <bgColor>-16777216</bgColor>
+    </ConsolePanel>
+    <ConsolePanel>
+      <id>4</id>
+      <title>右下サンプル</title>
+      <pos>BottomRight</pos>
+      <buttons>
+        <ConsoleButton>
+          <id>0</id>
+          <title>コピー</title>
+          <iconPath />
+          <ope>Copy</ope>
+          <dirName>copy</dirName>
+          <key>None</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>1</id>
+          <title>削除</title>
+          <iconPath />
+          <ope>Delete</ope>
+          <dirName />
+          <key>None</key>
+        </ConsoleButton>
+        <ConsoleButton>
+          <id>2</id>
+          <title>１つ戻す</title>
+          <iconPath />
+          <ope>Undo</ope>
+          <dirName />
+          <key>None</key>
+        </ConsoleButton>
+      </buttons>
+      <fgColor>-128</fgColor>
+      <bgColor>-16777216</bgColor>
+    </ConsolePanel>
+  </panels>
+  <dstDirPath />
+  <buttonSize>
+    <Width>150</Width>
+    <Height>30</Height>
+  </buttonSize>
+  <lefty>false</lefty>
+  <act>Act1</act>
+  <level>0</level>
+</Setting>
