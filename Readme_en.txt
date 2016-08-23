@@ -91,11 +91,11 @@ No damages can be sought against Jpico.
 # Authors
 --------------------------------------------------------------------------------
 Let's visit 'Jpico official site'.
-                                                               http://jpico.info
+                                                              https://jpico.info
 English page is here.
-                                                   http://jpico.info/download-en
+                                                     https://jpico.info/download
 A world guest book is here.
-                                                http://jpico.info/bbs/guest-book
+                                                https://jpico.info/bbs/guestbook
 --------------------------------------------------------------------------------
 # History
 --------------------------------------------------------------------------------
